@@ -1,1 +1,3 @@
-# Java-101
+## Java-101
+
+The repository "Java-101" is a comprehensive resource for students who are new to programming and want to learn the Java programming language. It includes a wide range of tutorials and exercises that cover the basics of Java syntax, data types, control structures, and object-oriented programming. The repository also includes sample code and projects that students can use to practice their skills and apply what they have learned. Whether you're a complete beginner or have some programming experience and just want to learn Java, this repository will provide you with the knowledge and resources you need to get started.
