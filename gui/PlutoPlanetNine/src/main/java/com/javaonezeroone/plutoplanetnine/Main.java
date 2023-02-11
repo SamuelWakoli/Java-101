@@ -13,13 +13,11 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("login_screen.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        stage.initStyle(StageStyle.UNDECORATED);
-        //stage.setTitle("Hello!");
+        stage.initStyle(StageStyle.UNDECORATED); //removes the window frame
+        //stage.setTitle("Pluto Planet Nine");
         stage.setScene(scene);
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
-    }
+    public static void main(String[] args) { launch(); }
 }
