@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javaonezeroone.plutoplanetnine.LoginScreenController">
+   <left>
+      <AnchorPane prefHeight="360.0" prefWidth="255.0" style="-fx-background-color: #263F73;" BorderPane.alignment="CENTER">
+         <Circle fill="#ebebeb00" layoutX="123.0" layoutY="180.0" radius="85.0" stroke="WHITE" strokeType="INSIDE" />
+         <Label alignment="CENTER" layoutX="12.0" layoutY="137.0" prefHeight="18.0" prefWidth="230.0" text="Pluto" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="24.0" />
+            </font>
+            <effect>
+               <MotionBlur radius="2.0" />
+            </effect>
+         </Label>
+         <Line endX="193.19998168945312" endY="126.4000015258789" layoutX="12.0" layoutY="41.0" startX="29.20000648498535" startY="126.4000015258789" stroke="WHITE" />
+         <Label alignment="CENTER" layoutX="12.0" layoutY="167.0" prefHeight="18.0" prefWidth="230.0" text="Planet Nine" textFill="WHITE">
+            <font>
+               <Font size="24.0" />
+            </font>
+            <effect>
+               <Glow level="1.0" />
+            </effect>
+         </Label>
+         <Circle fill="WHITE" layoutX="72.0" layoutY="112.0" radius="17.0" stroke="WHITE" strokeType="INSIDE">
+            <effect>
+               <MotionBlur />
+            </effect>
+         </Circle>
+         <Label layoutX="8.0" layoutY="327.0" text="Copyright (C). All Rights Reserved" textFill="WHITE">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <Label alignment="CENTER" layoutY="58.0" prefHeight="35.0" prefWidth="345.0" text="Sign In">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Label>
+         <Label layoutX="14.0" layoutY="102.0" prefHeight="18.0" prefWidth="164.0" text="Don't have an account?" />
+         <Label fx:id="lblRegister" layoutX="178.0" layoutY="102.0" text="Register" textFill="#214b9e">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+         <Label layoutX="14.0" layoutY="154.0" text="Username:">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Label>
+         <Label layoutX="14.0" layoutY="202.0" text="Password:">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Label>
+         <PasswordField fx:id="txtPassword" layoutX="123.0" layoutY="201.0" prefHeight="26.0" prefWidth="200.0" />
+         <TextField fx:id="txtUsername" layoutX="122.0" layoutY="153.0" prefHeight="26.0" prefWidth="200.0" />
+         <Button fx:id="btnSignIn" layoutX="14.0" layoutY="272.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="310.0" style="-fx-background-color: #263F73;" text="Sign In" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font></Button>
+         <Label fx:id="lblForgottenPassword" layoutX="169.0" layoutY="239.0" prefHeight="18.0" prefWidth="157.0" text="Forgotten password?" textFill="#214b9e">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+         <Button fx:id="btnExit" layoutX="14.0" layoutY="315.0" mnemonicParsing="false" onAction="#btnExitAction" prefHeight="30.0" prefWidth="310.0" style="-fx-background-color: #FFCCCB;" text="Exit">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font>
+         </Button>
+      </AnchorPane>
+   </center>
+</BorderPane>
