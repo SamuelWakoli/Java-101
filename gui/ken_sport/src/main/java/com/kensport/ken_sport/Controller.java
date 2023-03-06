@@ -12,14 +12,7 @@ public class Controller {
     TextField txtArFootQty, txtArBasketQty, txtArVolleyQty;
 
     @FXML
-    Text
-            txtTotalSales,
-            txtTax,
-            txtTotalItems,
-            txtSubtotalPrice,
-            txtTotalPriceVolleyball,
-            txtTotalPriceBasketball,
-            txtTotalPriceFootball;
+    Text txtTotalSales, txtTax, txtTotalItems, txtSubtotalPrice, txtTotalPriceVolleyball, txtTotalPriceBasketball, txtTotalPriceFootball;
 
     @FXML
     Button btnCheckout, btnExit, btnClear;
@@ -37,8 +30,7 @@ public class Controller {
     int footballQty, basketballQty, volleyballQty, totalItems;
 
     // var for getting prices
-    double footballTotalPrice, basketballTotalPrice, volleyballTotalPrice,
-            subtotalPrice, tax, totalSales;
+    double footballTotalPrice, basketballTotalPrice, volleyballTotalPrice, subtotalPrice, tax, totalSales;
 
     @FXML
     void btnCheckoutAction() {
@@ -60,18 +52,18 @@ public class Controller {
         subtotalPrice = footballTotalPrice + basketballTotalPrice + volleyballTotalPrice;
 
         // getting Tax @5%
-        tax = Math.round((subtotalPrice * 0.05) * 100.0)/100.0;
+        tax = Math.round((subtotalPrice * 0.05) * 100.0) / 100.0;
 
         // getting total sales
-        totalSales = Math.round((subtotalPrice - tax) * 100.0)/100.0;
+        totalSales = Math.round((subtotalPrice - tax) * 100.0) / 100.0;
 
         // outputting total prices
-        txtTotalPriceFootball.setText(String.valueOf(footballTotalPrice));
-        txtTotalPriceBasketball.setText(String.valueOf(basketballTotalPrice));
-        txtTotalPriceVolleyball.setText(String.valueOf(volleyballTotalPrice));
-        txtSubtotalPrice.setText(String.valueOf(subtotalPrice));
-        txtTax.setText(String.valueOf(tax));
-        txtTotalSales.setText(String.valueOf(totalSales));
+        txtTotalPriceFootball.setText("Ksh. " + footballTotalPrice);
+        txtTotalPriceBasketball.setText("Ksh. " + basketballTotalPrice);
+        txtTotalPriceVolleyball.setText("Ksh. " + volleyballTotalPrice);
+        txtSubtotalPrice.setText("Ksh. " + subtotalPrice);
+        txtTax.setText("Ksh. " + tax);
+        txtTotalSales.setText("Ksh. " + totalSales);
     }
 
     @FXML
