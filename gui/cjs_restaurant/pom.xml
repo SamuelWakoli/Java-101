@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cjsrestaurant</groupId>
-    <artifactId>cjs_retaurant</artifactId>
+    <groupId>com.cjs_restaurant</groupId>
+    <artifactId>cjs_restaurant</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>cjs_retaurant</name>
+    <name>cjs_restaurant</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -70,7 +70,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.cjsrestaurant.cjs_retaurant/com.cjsrestaurant.cjs_retaurant.HelloApplication
+                                com.cjs_restaurant.cjs_restaurant/com.cjs_restaurant.cjs_restaurant.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

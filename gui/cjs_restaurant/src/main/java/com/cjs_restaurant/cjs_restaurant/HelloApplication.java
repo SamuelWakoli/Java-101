@@ -1,4 +1,4 @@
-package com.cjsrestaurant.cjs_retaurant;
+package com.cjs_restaurant.cjs_restaurant;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
