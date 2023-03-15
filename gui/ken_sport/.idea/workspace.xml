@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1db3f93-d967-4d9c-a61e-d48d8188284c" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kensport/ken_sport/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kensport/ken_sport/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cjs_restaurant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cjs_restaurant/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

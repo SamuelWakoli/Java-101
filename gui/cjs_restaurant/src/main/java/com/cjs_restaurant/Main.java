@@ -24,11 +24,13 @@ public class Main extends Application {
 
 
         // Create a Timeline to navigate to the home screen after 5 seconds
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(5), event -> {
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(6), event -> {
             try {
                 FXMLLoader homeScreenRoot = new FXMLLoader(Main.class.getResource("/com/cjs_restaurant/view/home_screen.fxml"));
-                Scene homeScreenScene = new Scene(homeScreenRoot.load());
+                Scene homeScreenScene = new Scene(homeScreenRoot.load(), 1200, 800);
                 primaryStage.setScene(homeScreenScene);
+                primaryStage.centerOnScreen();
+                primaryStage.setResizable(true);
             } catch (IOException e) {
                 e.printStackTrace();
             }
