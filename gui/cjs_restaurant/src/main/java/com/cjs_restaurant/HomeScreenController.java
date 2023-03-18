@@ -1,57 +1,55 @@
 package com.cjs_restaurant;
 
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
 
-import java.net.URL;
-import java.util.ResourceBundle;
+import java.io.IOException;
 
-public class HomeScreenController implements Initializable {
+public class HomeScreenController {
 
-    @FXML
-    private Button menuButton;
 
-    @FXML
-    private Button orderOnlineButton;
+    public Text btnMenu;
+    public Text btnLocations;
+    public Text btnCareers;
+    public Text btnFeedBack;
+    public Text btnAboutUs;
+    public Button btnExit;
 
-    @FXML
-    private Button reservationsButton;
 
-    @FXML
-    private Button contactUsButton;
+    public void showMenu() throws IOException {
+        //close stage
+        Stage stage = (Stage) btnMenu.getScene().getWindow();
 
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        //open MenuScreen
+        FXMLLoader menuScreenRoot = new FXMLLoader(Main.class.getResource("/com/cjs_restaurant/view/menu_screen.fxml"));
+        Scene menuScreenScene = new Scene(menuScreenRoot.load(), 1200, 800);
+        stage.setScene(menuScreenScene);
+        stage.centerOnScreen();
+        stage.setResizable(true);
     }
 
-    @FXML
-    private void showMenu() {
-        // TODO: show the menu screen
+    public void showLocations() {
+
     }
 
-    @FXML
-    private void showOrderOnline() {
-        // TODO: show the online ordering screen
+    public void showCareers() {
+
     }
 
-    @FXML
-    private void showReservations() {
-        // TODO: show the reservations screen
+    public void showFeedback() {
+
     }
 
-    @FXML
-    private void showContactUs() {
-//        try {
-//            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/cjs_restaurant/view/contact_us_screen.fxml")));
-//            Scene scene = new Scene(root);
-//            Stage stage = (Stage) contactUsButton.getScene().getWindow();
-//            stage.setScene(scene);
-//        } catch (IOException e) {
-//            Alert alert = new Alert(AlertType.ERROR, "Error loading contact us screen.");
-//            alert.showAndWait();
-//        }
+    public void showAboutUs() {
+
+    }
+
+    public void exitApp() {
+        Stage stage = (Stage) btnExit.getScene().getWindow();
+        stage.close();
     }
 
 }
