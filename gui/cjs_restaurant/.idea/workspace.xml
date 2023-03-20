@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="added items at menu screen and new screens">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/helper/HelperFunctions.java" afterDir="false" />
+    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="enhancement in the HelperFunctions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/HomeScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/HomeScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/menu_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/menu_screen.fxml" afterDir="false" />
     </list>
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679339930403</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="enhancement in the HelperFunctions">
+      <created>1679345670046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345670046</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,6 +135,7 @@
     <MESSAGE value="non-functional home_screen.fxml" />
     <MESSAGE value="added empty menu screen" />
     <MESSAGE value="added items at menu screen and new screens" />
-    <option name="LAST_COMMIT_MESSAGE" value="added items at menu screen and new screens" />
+    <MESSAGE value="enhancement in the HelperFunctions" />
+    <option name="LAST_COMMIT_MESSAGE" value="enhancement in the HelperFunctions" />
   </component>
 </project>
