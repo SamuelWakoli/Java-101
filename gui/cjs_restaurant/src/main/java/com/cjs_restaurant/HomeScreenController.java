@@ -18,33 +18,43 @@ public class HomeScreenController {
     public Text btnAboutUs;
     public Button btnExit;
 
-
-    public void showMenu() throws IOException {
+    /**
+     * This function [nextScreen] takes 2 parameters:
+     * 1. the ID of a control, used to get current window of the app.
+     * 2. the name of the next view to be navigated to, when the control is clicked.
+     * This function is reusable in navigating to other pages
+     */
+    void nextScreen(Text textControl, String nextScreenName) throws IOException {
         //close stage
-        Stage stage = (Stage) btnMenu.getScene().getWindow();
+        Stage stage = (Stage) textControl.getScene().getWindow();
 
+        String resourcePath = "/com/cjs_restaurant/view/" + nextScreenName + ".fxml";
         //open MenuScreen
-        FXMLLoader menuScreenRoot = new FXMLLoader(Main.class.getResource("/com/cjs_restaurant/view/menu_screen.fxml"));
+        FXMLLoader menuScreenRoot = new FXMLLoader(Main.class.getResource(resourcePath));
         Scene menuScreenScene = new Scene(menuScreenRoot.load(), 1200, 800);
         stage.setScene(menuScreenScene);
         stage.centerOnScreen();
         stage.setResizable(true);
     }
 
-    public void showLocations() {
-
+    public void showMenu() throws IOException {
+        nextScreen(btnMenu, "menu_screen");
     }
 
-    public void showCareers() {
-
+    public void showLocations() throws IOException {
+        nextScreen(btnLocations, "locations_screen");
     }
 
-    public void showFeedback() {
-
+    public void showCareers() throws IOException {
+        nextScreen(btnCareers, "careers_screen");
     }
 
-    public void showAboutUs() {
+    public void showFeedback() throws IOException {
+        nextScreen(btnFeedBack, "feedback_screen");
+    }
 
+    public void showAboutUs() throws IOException {
+        nextScreen(btnAboutUs, "about_us_screen");
     }
 
     public void exitApp() {

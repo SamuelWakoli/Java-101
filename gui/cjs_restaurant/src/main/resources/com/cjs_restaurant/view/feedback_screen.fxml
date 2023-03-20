@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cjs_restaurant.FeedbackScreenController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1200.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/home_background.jpg" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="126.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cjs_logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="156.0" layoutY="30.0" text=" CJ's Restaurant">
+         <font>
+            <Font name="System Bold" size="73.0" />
+         </font>
+      </Label>
+      <Line endX="709.6000366210938" endY="131.1999969482422" startX="291.20001220703125" startY="131.1999969482422" strokeWidth="2.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff9e" height="368.0" layoutX="133.0" layoutY="133.0" stroke="#ffffff00" strokeType="INSIDE" width="920.0" />
+      <Text layoutX="434.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feedback">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff9e" height="176.0" layoutX="14.0" layoutY="610.0" stroke="#ffffff00" strokeType="INSIDE" width="1037.0" />
+      <Text layoutX="26.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Us:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="26.0" layoutY="654.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koinange Street" />
+      <Text layoutX="26.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+254 792 000 090" />
+      <Text layoutX="26.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+254 795 000 090" />
+      <Text layoutX="26.0" layoutY="718.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Village Market" />
+      <Text layoutX="26.0" layoutY="734.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+254 796 000 090" />
+      <Text layoutX="26.0" layoutY="750.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+254 799 000 090" />
+      <Text layoutX="186.0" layoutY="654.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Waterfront Mall, Karen" />
+      <Text layoutX="186.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+254 701 000 090" />
+      <Text layoutX="186.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+254 702 000 090" />
+      <Text layoutX="186.0" layoutY="718.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kilimani" />
+      <Text layoutX="186.0" layoutY="734.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+254 712 000 033" />
+      <Text layoutX="186.0" layoutY="750.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+254 712 000 011" />
+      <Text layoutX="457.0" layoutY="638.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We're commited to great food, great coffee, great service, an experience that will make your time with us fabulous. All visuals are serving suggestions only. Prices are quoted in Kenyan Shillings and inclusive of VAT." wrappingWidth="593.9803466796875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="457.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2023 CJ's. All Rights Reserved" />
+      <Button fx:id="btnExit" layoutX="1143.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitApp" text="Exit" textFill="RED" />
+   </children>
+</AnchorPane>
