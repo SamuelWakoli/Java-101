@@ -5,6 +5,10 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
+import static com.cjs_restaurant.helper.HelperFunctions.nextScreenUSingBtnCtrl;
+
 public class MenuScreenController {
 
     //getting controls from the UI
@@ -27,4 +31,10 @@ public class MenuScreenController {
         Stage stage = (Stage) btnExit.getScene().getWindow();
         stage.close();
     }
+
+    // go home screen
+    public void goHomeScreen() throws IOException {
+        nextScreenUSingBtnCtrl(btnHome, "home_screen");
+    }
+
 }

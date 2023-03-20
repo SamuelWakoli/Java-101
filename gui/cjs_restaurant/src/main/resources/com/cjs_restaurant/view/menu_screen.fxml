@@ -64,7 +64,7 @@
       </Text>
       <Text layoutX="457.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2023 CJ's. All Rights Reserved" />
       <Button fx:id="btnExit" layoutX="1143.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitApp" text="Exit" textFill="RED" />
-      <Button fx:id="btnHome" layoutX="1079.0" layoutY="14.0" mnemonicParsing="false" text="Home" />
+      <Button fx:id="btnHome" layoutX="1079.0" layoutY="14.0" mnemonicParsing="false" onAction="#goHomeScreen" text="Home" />
       <CheckBox fx:id="checkChickenWings" layoutX="193.0" layoutY="262.0" mnemonicParsing="false" text="Chicken Wings       Ksh 350">
          <font>
             <Font name="System Bold" size="16.0" />

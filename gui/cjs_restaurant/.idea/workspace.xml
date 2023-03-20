@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="added empty menu screen">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/AboutUsScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/CareersScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/FeedbackScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/LocationsScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" afterDir="false" />
+    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="added items at menu screen and new screens">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/helper/HelperFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/HomeScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/HomeScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/menu_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/menu_screen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679162887494</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added items at menu screen and new screens">
+      <created>1679339930403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679339930403</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +129,7 @@
     <MESSAGE value="redesigned classes" />
     <MESSAGE value="non-functional home_screen.fxml" />
     <MESSAGE value="added empty menu screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="added empty menu screen" />
+    <MESSAGE value="added items at menu screen and new screens" />
+    <option name="LAST_COMMIT_MESSAGE" value="added items at menu screen and new screens" />
   </component>
 </project>
