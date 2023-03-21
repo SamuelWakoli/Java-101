@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="added payment dialog">
+    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="added functionality in all screens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/AboutUsScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/AboutUsScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/CareersScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/CareersScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/FeedbackScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/FeedbackScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/LocationsScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/LocationsScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/images/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/images/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/images/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/images/youtube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/about_us_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/about_us_screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/careers_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/careers_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/feedback_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/feedback_screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/locations_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/locations_screen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679390391923</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added functionality in all screens">
+      <created>1679396118562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679396118562</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +159,7 @@
     <MESSAGE value="enhancement in the HelperFunctions" />
     <MESSAGE value="added functionality to checkbox" />
     <MESSAGE value="added payment dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="added payment dialog" />
+    <MESSAGE value="added functionality in all screens" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functionality in all screens" />
   </component>
 </project>

@@ -138,19 +138,19 @@ public class MenuScreenController {
             dialogPane.getButtonTypes().clear();
             dialogPane.getButtonTypes().addAll(ButtonType.OK, ButtonType.CANCEL);
 
-            // Get selected payment method
-            String selectedPayMethod;
-            if (paypalBtn.isSelected()) {
-                selectedPayMethod = "PayPal";
-            } else if (creditCardBtn.isSelected()) {
-                selectedPayMethod = "Credit Card";
-            } else { //default to Mpesa
-                selectedPayMethod = "Mpesa";
-            }
-
             // Handle the Okay button action
             Stage stage = (Stage) dialogPane.getScene().getWindow();
             dialogPane.lookupButton(ButtonType.OK).setOnMousePressed(event -> {
+
+                // Get selected payment method
+                String selectedPayMethod;
+                if (paypalBtn.isSelected()) {
+                    selectedPayMethod = "PayPal";
+                } else if (creditCardBtn.isSelected()) {
+                    selectedPayMethod = "Credit Card";
+                } else { //default to Mpesa
+                    selectedPayMethod = "Mpesa";
+                }
 
                 Alert confirmationDialog = new Alert(Alert.AlertType.INFORMATION);
                 confirmationDialog.setTitle("Payment Prompt Sent");
