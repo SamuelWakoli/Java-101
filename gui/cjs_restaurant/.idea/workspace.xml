@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="added functionality to checkbox">
+    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="added payment dialog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/menu_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/menu_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/AboutUsScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/AboutUsScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/CareersScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/CareersScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/FeedbackScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/FeedbackScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/LocationsScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/LocationsScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/images/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/images/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/images/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/about_us_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/about_us_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/careers_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/careers_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/feedback_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/feedback_screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/locations_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/locations_screen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679349943199</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added payment dialog">
+      <created>1679390391923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679390391923</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -144,6 +161,7 @@
     <MESSAGE value="added items at menu screen and new screens" />
     <MESSAGE value="enhancement in the HelperFunctions" />
     <MESSAGE value="added functionality to checkbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="added functionality to checkbox" />
+    <MESSAGE value="added payment dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="added payment dialog" />
   </component>
 </project>

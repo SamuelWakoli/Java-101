@@ -63,5 +63,30 @@
       </Text>
       <Text layoutX="457.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2023 CJ's. All Rights Reserved" />
       <Button fx:id="btnExit" layoutX="1143.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitApp" text="Exit" textFill="RED" />
+      <Button fx:id="btnHome" layoutX="1077.0" layoutY="14.0" mnemonicParsing="false" onAction="#goHomeScreen" text="Home" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="168.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/koinange-st.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="383.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/kilimani.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="602.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/karen.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="818.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/village-mkt.jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="170.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koinange" />
+      <Text layoutX="385.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kilimani" />
+      <Text layoutX="602.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Waterfront, Karen" />
+      <Text layoutX="818.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Village Market" />
    </children>
 </AnchorPane>

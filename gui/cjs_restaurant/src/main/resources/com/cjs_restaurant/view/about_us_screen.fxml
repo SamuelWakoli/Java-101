@@ -63,5 +63,11 @@
       </Text>
       <Text layoutX="457.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2023 CJ's. All Rights Reserved" />
       <Button fx:id="btnExit" layoutX="1143.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitApp" text="Exit" textFill="RED" />
+      <Button fx:id="btnHome" layoutX="1078.0" layoutY="14.0" mnemonicParsing="false" onAction="#goHomeScreen" text="Home" />
+      <Text layoutX="169.0" layoutY="214.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At CJ's Restaurant, we believe that good food and great service can make a difference in people's lives. That's why we are dedicated to providing our customers with the best dining experience possible. Our team of talented chefs and friendly staff work hard every day to ensure that our guests feel welcomed and satisfied.We are passionate about food and take pride in using only the freshest and highest quality ingredients in our dishes. Our menu features a variety of classic and modern American cuisine, as well as a selection of international flavors inspired by our travels around the world.At CJ's Restaurant, we also care about our community and the environment. That's why we source our ingredients from local farmers and use sustainable practices in our restaurant operations. We are committed to reducing our carbon footprint and contributing to a better world.Thank you for choosing CJ's Restaurant. We look forward to serving you and making your dining experience a memorable one." wrappingWidth="848.7296295166016">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

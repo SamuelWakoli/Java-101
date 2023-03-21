@@ -63,5 +63,11 @@
       </Text>
       <Text layoutX="457.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2023 CJ's. All Rights Reserved" />
       <Button fx:id="btnExit" layoutX="1143.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitApp" text="Exit" textFill="RED" />
+      <Button fx:id="btnHome" layoutX="1077.0" layoutY="14.0" mnemonicParsing="false" onAction="#goHomeScreen" text="Home" />
+      <Text layoutX="247.0" layoutY="222.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for your interest in joining our team at CJ's Restaurant. We are always looking for talented and passionate individuals to join our family. For information on available careers, please contact our management team at manager@cjs.co.ke. We look forward to hearing from you!" wrappingWidth="678.3294830322266">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

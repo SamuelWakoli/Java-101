@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.effect.Glow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -63,5 +65,14 @@
       </Text>
       <Text layoutX="457.0" layoutY="766.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© 2023 CJ's. All Rights Reserved" />
       <Button fx:id="btnExit" layoutX="1143.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitApp" text="Exit" textFill="RED" />
+      <Button fx:id="btnHome" layoutX="1077.0" layoutY="14.0" mnemonicParsing="false" onAction="#goHomeScreen" text="Home" />
+
+      <Label layoutX="185.0" layoutY="90.0" style="-fx-font-size: 18px;" text="Please share your feedback with us." />
+      <TextArea fx:id="feedbackTextArea" layoutX="238.0" layoutY="213.0" prefHeight="208.0" prefWidth="617.0" promptText="Enter your feedback here..." />
+      <Button fx:id="submitButton" layoutX="238.0" layoutY="434.0" onAction="#handleSubmitButtonAction" prefHeight="42.0" prefWidth="618.0" style="-fx-background-color: #0066cc; -fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold;" text="Submit">
+         <padding>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+         </padding>
+      </Button>
    </children>
 </AnchorPane>
