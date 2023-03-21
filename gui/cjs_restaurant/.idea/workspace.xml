@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="enhancement in the HelperFunctions">
+    <list default="true" id="fd9df9ca-31b9-4155-8093-145eb88f0165" name="Changes" comment="added functionality to checkbox">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjs_restaurant/MenuScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/menu_screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cjs_restaurant/view/menu_screen.fxml" afterDir="false" />
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679345670046</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added functionality to checkbox">
+      <created>1679349943199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679349943199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +143,7 @@
     <MESSAGE value="added empty menu screen" />
     <MESSAGE value="added items at menu screen and new screens" />
     <MESSAGE value="enhancement in the HelperFunctions" />
-    <option name="LAST_COMMIT_MESSAGE" value="enhancement in the HelperFunctions" />
+    <MESSAGE value="added functionality to checkbox" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functionality to checkbox" />
   </component>
 </project>

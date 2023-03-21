@@ -1,9 +1,12 @@
 package com.cjs_restaurant;
 
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
+import javafx.scene.control.*;
+import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.io.IOException;
 
@@ -37,6 +40,7 @@ public class MenuScreenController {
         nextScreenUSingBtnCtrl(btnHome, "home_screen");
     }
 
+    // variables used to store food item prices
     Double totalCost = 0.0,
     // Appetizers
     priceChickenWings = 350.0, priceMozzarella = 300.0, priceGarlicBread = 250.0,
@@ -100,5 +104,79 @@ public class MenuScreenController {
 
     public void actionIceCreamSundae() {
         checkingEvent(checkIceCreamSundae, priceIceCreamSundae);
+    }
+
+    public void openPaymentDialog() {
+        if (totalCost != 0.0) {
+            Alert paymentDialog = new Alert(Alert.AlertType.CONFIRMATION);
+            paymentDialog.setTitle("Select Payment Method");
+            paymentDialog.setHeaderText(null);
+
+            // Create radio buttons
+            RadioButton mpesaBtn = new RadioButton("Mpesa");
+            RadioButton paypalBtn = new RadioButton("PayPal");
+            RadioButton creditCardBtn = new RadioButton("Credit Card");
+
+            // Add radio buttons to a toggle group
+            ToggleGroup paymentMethod = new ToggleGroup();
+            mpesaBtn.setToggleGroup(paymentMethod);
+            paypalBtn.setToggleGroup(paymentMethod);
+            creditCardBtn.setToggleGroup(paymentMethod);
+
+            // Set default selection
+            mpesaBtn.setSelected(true);
+
+            // Add radio buttons to a VBox
+            VBox paymentOptions = new VBox(mpesaBtn, paypalBtn, creditCardBtn);
+            paymentOptions.setSpacing(10);
+
+            // Set the VBox as the dialog content
+            DialogPane dialogPane = paymentDialog.getDialogPane();
+            dialogPane.setContent(paymentOptions);
+
+            // Add Okay and Cancel buttons
+            dialogPane.getButtonTypes().clear();
+            dialogPane.getButtonTypes().addAll(ButtonType.OK, ButtonType.CANCEL);
+
+            // Get selected payment method
+            String selectedPayMethod;
+            if (paypalBtn.isSelected()) {
+                selectedPayMethod = "PayPal";
+            } else if (creditCardBtn.isSelected()) {
+                selectedPayMethod = "Credit Card";
+            } else { //default to Mpesa
+                selectedPayMethod = "Mpesa";
+            }
+
+            // Handle the Okay button action
+            Stage stage = (Stage) dialogPane.getScene().getWindow();
+            dialogPane.lookupButton(ButtonType.OK).setOnMousePressed(event -> {
+
+                Alert confirmationDialog = new Alert(Alert.AlertType.INFORMATION);
+                confirmationDialog.setTitle("Payment Prompt Sent");
+                confirmationDialog.setHeaderText(null);
+                confirmationDialog.setContentText(selectedPayMethod + " payment prompt of Ksh. " + totalCost + " has been sent to you.\nThank you for choosing CJ's Restaurant.");
+                confirmationDialog.showAndWait();
+                // Navigate to home screen
+                try {
+                    goHomeScreen();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+                stage.close(); // close the current stage
+
+                paymentDialog.close();
+            });
+
+            // Handle the Cancel button action
+            dialogPane.lookupButton(ButtonType.CANCEL).setOnMousePressed(event -> paymentDialog.close());
+
+            paymentDialog.showAndWait();
+        } else { // total cost is zero
+            // set button text
+            btnPay.setText("Select food item");
+            Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(2), event -> btnPay.setText("Pay")));
+            timeline.play();
+        }
     }
 }
